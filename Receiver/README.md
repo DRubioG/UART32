@@ -1,10 +1,10 @@
 # Reciever
 
 ## Sketch
-![Scketch](sketch.jpg)
+![Scketch](pictures/sketch.jpg)
 
 ## Graph
-![Graph](graph.jpg)
+![Graph](pictures/graph.jpg)
 
 ## Signal
-![signal](signal.jpg)
+![signal](pictures/signal.jpg)
