@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/XD/Desktop/protocolo/prueba1/prueba1.srcs/sources_1/new/protocolo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'protocolo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/XD/Desktop/protocolo/prueba1/prueba1.srcs/sim_1/new/protocolo_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'protocolo_tb'
