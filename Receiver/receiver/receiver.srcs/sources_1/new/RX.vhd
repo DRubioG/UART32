@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
-entity protocolo is
+entity RX is
 generic(
     tiempo: integer:=1000;
     N: integer:=32;
@@ -14,12 +14,10 @@ port (
     rx_in: in std_logic;
     data_in: out std_logic_vector(N-1 downto 0)
     );
-end protocolo;
+end RX;
 
-architecture Behavioral of protocolo is
+architecture Behavioral of RX is
 type fsm is (S0, S1, S2, S3);
-type fsm2 is (S0, S1, S2, S3, S4);
-signal estado2: fsm2;
 signal estado: fsm;
 signal cont2: unsigned(9 downto 0);
 signal cont_fin, cont_med: std_logic;

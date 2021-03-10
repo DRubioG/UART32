@@ -3,11 +3,11 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
-entity protocolo_tb is
-end protocolo_tb;
+entity RX_tb is
+end RX_tb;
 
-architecture Behavioral of protocolo_tb is
-component protocolo is
+architecture Behavioral of RX_tb is
+component RX is
     generic(
         tiempo: integer:=1000;
         N: integer:=32
