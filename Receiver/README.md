@@ -1,7 +1,7 @@
 # Reciever
 
 ## Sketch
-![Scketch](pictures/sketch.jpg)
+![Scketch](pictures/scketch.jpg)
 
 ## Graph
 ![Graph](pictures/graph.jpg)
