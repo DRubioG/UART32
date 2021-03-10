@@ -4,15 +4,15 @@ This folder contains all VHDL files
 ## Receiver
 ### [RX](RX.vhd)
 RX file
-Input :
+- Input :
     - clk : clock
     - rst : reset
     - rx_in : RX input line (1 bit)
-Output : 
+- Output : 
     - data_in : RX data (N  bits)
-Generic :
+- Generic :
     - tiempo : period of RX signal
     - N : number of output data bits
-    - rst_en : type of reset(High level by default)
+    - rst_en : type of reset(high level by default)
 ### [RX_tb](RX_tb.vhd)
 Testbench file for RX
