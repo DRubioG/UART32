@@ -12,7 +12,8 @@ port (
     clk: in std_logic;
     rst: in std_logic;
     rx_in: in std_logic;
-    data_in: out std_logic_vector(N-1 downto 0)
+    data_in: out std_logic_vector(N-1 downto 0);
+    data_rx_ok : out std_logic
     );
 end RX;
 
@@ -74,6 +75,7 @@ begin
                 en_cont<='0';
                 contador<=(others=>'0');
                 data_in<=data_aux;
+                data_rx_ok<='0';
             when S1=> --null;
                 en_cont<='1';
             when S2=> null;
@@ -81,6 +83,7 @@ begin
             when S3=>
                 data_aux((N-1)-to_integer(contador)):=rx_in;
                 contador<= contador+1;
+                data_rx_ok <='1';
         end case;
     end if;
 end process;
